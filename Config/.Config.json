@@ -1,0 +1,21 @@
+
+{
+    "test":{
+        "BURL":"localhost:3000/",
+        "DBUrl":"hjbhjb",
+        "secret":"ArkaSecret",
+        "VideoFolder":"./videos",
+        "thumbleFoder":"./videos/thumbes",
+        "maxVideoPerAnswer":10
+    },
+    "development":{
+        "BURL":"localhost:3000/",
+        "PORT":"3000",
+        "DBUrl":"mongodb://localhost:27017/acientDocApp",
+        "secret":"SuperSecret",
+        "VideoFolder":"./videos",
+        "thumbleFoder":"./videos/thumbes",
+        "maxVideoPerAnswer":10
+    }
+}
+
