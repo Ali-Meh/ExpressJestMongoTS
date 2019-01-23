@@ -49,16 +49,17 @@
       "tsx",
       "js"
     ],
+    "setupTestFrameworkScriptFile": "./test/setup.ts",
     "transform": {
       "^.+\\.(ts|tsx)$": "ts-jest"
     },
     "globals": {
       "ts-jest": {
-        "tsConfigFile": "tsconfig.json"
+        "tsConfig": "tsconfig.json"
       }
     },
     "testMatch": [
-      "**/tests/**.test.+(ts|tsx|js)"
+      "**/test/**.test.+(ts|tsx|js)"
     ]
   }
 }
