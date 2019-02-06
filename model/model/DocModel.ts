@@ -9,8 +9,9 @@ let Doc=new mongoose.Schema({
     Name:{type:String},
     Gender:{type:Boolean,default:true},
     Role:{type:String,required:true},
-    ImeiCode:{type:String,required:true},
     Registrycode:{type:String,required:true,unique:true},
+    Nationalcode:{type:String,required:true,unique:true},
+    Phone:{type:String,required:true,unique:true},
     Patient:[{
         type: mongoose.Schema.Types.ObjectId, ref: 'patient'
     }]
@@ -23,5 +24,5 @@ let patientSignupCode=new mongoose.Schema({
 
 
 
-export let DoctorModel= mongoose.model("Doctor",Doc);
+export let DoctorModel= mongoose.model("doctor",Doc);
 export let SignCode= mongoose.model("SignCode",patientSignupCode);

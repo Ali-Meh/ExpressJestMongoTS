@@ -20,4 +20,4 @@ let Disease=new mongoose.Schema({
 
 
 
-export let QuestionsModel= mongoose.model("Disease",Disease);
+export let QuestionsModel= mongoose.model("disease",Disease);
