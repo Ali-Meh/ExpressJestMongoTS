@@ -7,7 +7,7 @@ let route=express.Router();
 // route.use("/doctor",require('./Doctor'));
 
 
-// route.get(["/getThumb","/getThumb:id"],async (req,res)=>{//fixme 
+// route.get(["/getThumb","/getThumb:id"],async (req,res)=>{ 
 
 
 // })
