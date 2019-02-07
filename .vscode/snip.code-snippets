@@ -16,10 +16,10 @@
 	// 	"description": "Log output to console"
 	// }
 	"Print with winston": {
-		"prefix": "logger",
+		"prefix": "___logger",
 		"body": [
 			"// @ts-ignore",
-			"__logger.log('${1:debug}','${2:message}')",
+			"__logger.log('${1:debug}',`${2:message}`)",
 			"$3"
 		],
 		"description": "Log with winston"
